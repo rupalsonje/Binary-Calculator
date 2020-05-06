@@ -1,0 +1,48 @@
+body{
+    width:100%;
+    background: linear-gradient(to right, rgb(255, 51, 51), rgb(50, 101, 101)) ;
+}
+h1{
+    color: black;
+    padding-top: 10px;
+    font-size: 7vh;
+    text-align:center ;
+}
+
+#res{
+    background-color:rgb(209, 198, 198);
+    border:solid 7px;
+    width: 80vh;
+    font-size:20px;
+    height:150px;
+    padding:10px;
+}
+#btns button{
+    width:25%;
+    border: solid 3px;
+    border-color: black;
+    height:70px;
+    font-size:18px;
+    margin: 0;
+    float: left;
+}
+#btn0, #btn1{
+    background-color:lightgreen;
+    color:brown;
+}
+#btnClr, #btnEql{
+    background-color:darkgreen;
+    color:white;
+} 
+#btnSum, #btnSub, #btnMul, #btnDiv{
+    background-color:purple;
+    color:whitesmoke;
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;    
+}
